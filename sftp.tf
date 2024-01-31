@@ -112,6 +112,6 @@ resource "aws_transfer_server" "sftp" {
 }
 
 module "idp" {
-  source = "github.com/Bubo-AI/terraform-aws-transfer?ref=v0.5.5"
+  source = "github.com/Bubo-AI/terraform-aws-transfer?ref=v0.5.6"
   prefix = var.prefix
 }
